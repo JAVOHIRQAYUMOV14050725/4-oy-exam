@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "bookId": "1",
+    "clientName": "Javohir",
+    "clientPhone": "942024044",
+    "count": "4",
+    "address": "surxondaryo viloyati muzrabot tumani",
+    "totalPrice": 160000
+  },
+  {
+    "id": 2,
+    "bookId": "3",
+    "clientName": "Burxon",
+    "clientPhone": "939433424",
+    "count": "4",
+    "address": "Jizzah shahri",
+    "totalPrice": 360000
+  },
+  {
+    "id": 3,
+    "bookId": "3",
+    "clientName": "Burxon",
+    "clientPhone": "939433424",
+    "count": "32",
+    "address": "Jizzah shahri",
+    "totalPrice": 2880000
+  },
+  {
+    "id": 4,
+    "bookId": "3",
+    "clientName": "Jonibek",
+    "clientPhone": "931913220",
+    "count": "23",
+    "address": "Moskva ",
+    "totalPrice": 2070000
+  },
+  {
+    "id": 5,
+    "bookId": "2",
+    "clientName": "Jonibek",
+    "clientPhone": "931913220",
+    "count": "43",
+    "address": "Jizzah shahri",
+    "totalPrice": 1720000
+  },
+  {
+    "id": 6,
+    "bookId": "1",
+    "clientName": "eshonqul",
+    "clientPhone": "937612072",
+    "count": "100",
+    "address": "Qashqadaryo",
+    "totalPrice": 4000000
+  }
+]

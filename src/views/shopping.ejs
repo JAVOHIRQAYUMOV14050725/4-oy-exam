@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books.uz</title>
+    <link rel="stylesheet" href="/style/shopping.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+     
+          
+         
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container product-detail">
+        <div class="product-wrapper">
+          <img
+            src="<%= book.img %>"
+            alt="<%= book.name %>"
+            class="product-img"
+          />
+          <div class="product-info">
+            <h2 class="name"><%= book.name %></h2>
+            <p class="price"><%= book.price %> sum</p>
+            <form class="payment-form" action="/order" method="post">
+            
+              <select id="bookName" name="bookId">
+                <option value="<%= book.id %>"><%= book.name %></option>
+              </select>
+              
+              <input type="text" id="clientName" name="clientName" required placeholder="Ismingizni kriting" />
+              
+              <input
+                type="number"
+                min="1"
+                max="100"
+                id="count"
+                name="count"
+                required placeholder="Nechta sotib olmoqchisiz"
+              />
+             
+              <input type="tel" id="clientPhone" name="clientPhone" required placeholder="Telefon raqamingizni kiriting" />
+              
+              <input type="text" id="address" name="address" required placeholder="Manzilingizni kiriting" />
+              <a href="/"><button type="submit">Sotib olish</button></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

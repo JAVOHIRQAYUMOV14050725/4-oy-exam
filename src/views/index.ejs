@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MVC SMART BOOK SHOPE</title>
+    <link rel="stylesheet" href="/style/home.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+         <div>
+          <a href="/"
+          ><img width="400" src="https://www.shutterstock.com/image-illustration/ebook-reader-books-tablet-3d-600nw-564575782.jpg" alt="Books.uz logo"
+        /></a>
+        <h1> I WOULD LIKE TO  BUY THIS BOOK SHOPE. ARE YOU?</h1> 
+         </div>
+        
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container card-container">
+        <% books.forEach(el => { %>
+        <div class="product">
+          <div class="card">
+            <img src="<%= el.img %>" alt="<%= el.name %>" class="product-img" />
+            <div class="content-box">
+              <h4 class="name"><%= el.name %></h4>
+              <p><%= el.desc %></p>
+              <div class="btn">
+                <h2 class="price"><%= el.price %> so'm</h2>
+                <a href="/order/<%= el.id %>"> Sotib olish</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <% }) %>
+      </div>
+    </main>
+  </body>
+</html>

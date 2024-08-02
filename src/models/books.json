@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "O'tkan kunlar",
+    "desc": "Juda ajoyib kitob",
+    "count": "2",
+    "price": "40000",
+    "authorId": 1,
+    "categoryId": 1,
+    "img": "https://assets.asaxiy.uz/product/items/desktop/94aafc73fc9eb3547000f0c2e5b6a4082021042316305750466SItesVCq86.jpg.webp"
+  },
+  {
+    "id": 2,
+    "name": "besh bolali yigitcha",
+    "desc": "Hayotdan oling voqea asosida yozilgan",
+    "count": "8",
+    "price": "40000",
+    "authorId": 1,
+    "categoryId": 1,
+    "img": "https://olcha.uz/image/600x600/products/2022-02-10/khudoyberdi-tkhtaboev-besh-bolali-yigitcha-35929-0.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Yulduzli tunlar",
+    "desc": "Pirimqul Qodirov qalamiga mansub",
+    "count": "40",
+    "price": "90000",
+    "authorId": 1,
+    "categoryId": 1,
+    "img": "https://assets.asaxiy.uz/product/items/desktop/e2c420d928d4bf8ce0ff2ec19b3715142023092012272949152eE0ZN1q3YE.jpg.webp"
+  }
+]
